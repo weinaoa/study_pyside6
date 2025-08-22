@@ -389,4 +389,4 @@ if __name__ == "__main__":
     window = MyWindow()
     window.show()
     app.exec() 
-# pyinstaller -F -w main.py --add-data "image1.jpg;." --distpath release --workpath build_temp
+# pyinstaller -F -w main.py --add-data "image1.jpg;." 
