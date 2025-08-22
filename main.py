@@ -388,5 +388,5 @@ if __name__ == "__main__":
     app = QApplication([])
     window = MyWindow()
     window.show()
-    app.exec()
+    app.exec() 
 # pyinstaller -F -w main.py --add-data "image1.jpg;." --distpath release --workpath build_temp
